@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+input:focus {
+  background-color: rgb(221, 246, 131);
+  border: 1px solid rgb(255, 251, 28);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  width: 40%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+
+  border-radius: 4px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+/* 리스트 기본 스타일 제거 */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 리스트 아이템(할 일) */
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
